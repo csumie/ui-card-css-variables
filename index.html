@@ -6,7 +6,20 @@
   <link rel="icon" href="https://fav.farm/🔥" />
 </head>
 <body>
-  <h1>Modify your image with <span class='hl'>JS</span></h1>
+  <div class="container">
+      <h1>Modify your image with <span class='hl'>JS</span></h1>
+      <div class="avatar-upload">
+          <div class="avatar-edit">
+              <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+              <label for="imageUpload"></label>
+          </div>
+          <div class="avatar-preview">
+              <div id="imagePreview" style="background-image: url(http://i.pravatar.cc/500?img=7);">
+              </div>
+          </div>
+      </div>
+  </div>
+
 
 <div class="controls">
   <label for="spacing">Spacing:</label>
@@ -19,7 +32,7 @@
   <input id="base" type="color" name="base" value="#ffc600">
 </div>
 
-<img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
+<!-- <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500"> -->
 
 <script src="assets/js/main.js"></script>
 </body>
