@@ -17,6 +17,8 @@
   --h1-font-size: 3rem;
   --h2-font-size: 2rem;
   --h3-font-size: 1rem;
+  --font-style-one: uppercase;
+  --font-style-two: none;
   --font-bold: 600;
   --font-semi-bold: 500;
   --font-regular: 400;
@@ -78,6 +80,7 @@ body {
 .card-title {
   font-size: var(--h1-font-size);
   font-family: var(--body-font);
+  text-transform: var(--font-style-one);
   line-height: 45px;
   text-align: center;
   margin: 20px 0 20px;
