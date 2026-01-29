@@ -3,7 +3,7 @@
 
 /*==================== COLORS ====================*/
 :root {
-  --first-color: #FFFFFF;
+  --first-color: #F5F5F5;
   --second-color: #000000;
   --third-color: #BBBBBB;
   --fourth-color: #CCCCCC;
@@ -28,8 +28,8 @@
 
 
 body {
-  background: whitesmoke;
-  font-family: 'Open Sans', sans-serif;
+  background: var(--first-color);
+  font-family: var(--body-font);
 }
 .image_container {
   max-width: 960px;
