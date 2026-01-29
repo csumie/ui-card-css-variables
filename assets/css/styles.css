@@ -77,6 +77,8 @@ body {
 
 .card-title {
   font-size: var(--h1-font-size);
+  font-family: var(--body-font);
+  line-height: 45px;
   text-align: center;
   margin: 20px 0 20px;
 }
