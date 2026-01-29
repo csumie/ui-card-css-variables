@@ -4,7 +4,7 @@
 /*==================== COLORS ====================*/
 :root {
   --first-color: #F5F5F5;
-  --second-color: #000000;
+  --second-color: #010101;
   --third-color: #BBBBBB;
   --fourth-color: #CCCCCC;
   --fifth-color: #EEEEEE;
@@ -81,6 +81,7 @@ body {
   font-size: var(--h1-font-size);
   font-family: var(--body-font);
   text-transform: var(--font-style-one);
+  color: var(--second-color);
   line-height: 45px;
   text-align: center;
   margin: 20px 0 20px;
@@ -168,7 +169,7 @@ body {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 8px;
-  color: #fff;
+  color: var(--second-color);
 }
 
 .title {
