@@ -220,6 +220,7 @@ body {
   flex: 1;
   padding: 10px;
   background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 24px 0 rgba(31, 38, 135, 0.37);
   color: var(--second-color);
   text-decoration: none;
   border-radius: 10px;
