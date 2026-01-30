@@ -209,11 +209,8 @@ body {
   letter-spacing: 1px;
 }
 
-.social-links {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-  justify-content: center;
+.controls{
+  margin-bottom: 50px;
 }
 
 .social-btn {
