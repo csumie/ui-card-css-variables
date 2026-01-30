@@ -235,6 +235,10 @@ body {
   transform: translateY(-2px);
 }
 
+#base {
+  inline-size: 100%!important;
+}
+
 .follow-btn {
   width: 100%;
   padding: 14px;
