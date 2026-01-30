@@ -11,7 +11,7 @@
   --sixth-color: #333333;
   --seventh-color: #444444;
 
-/*==================== FONT STYLES ====================*/
+/*==================== FONT SIZES & STYLES ====================*/
 
   --body-font: "Poppins", sans-serif;
   --h1-font-size: 3rem;
@@ -19,18 +19,34 @@
   --h3-font-size: 1rem;
   --font-style-one: uppercase;
   --font-style-two: none;
+
+/*==================== FONT WEIGHT ====================*/
+
   --font-bold: 600;
   --font-semi-bold: 500;
   --font-regular: 400;
   --font-medium: 300;
   --font-light: 200;
   --font-extra-light: 100;
+
+/*========== Margins ==========*/
+
+  --mb-0: 0;
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
 }
 
 /*==================== LAYOUT ====================*/
 
 * {
-  margin: 0;
+  margin: var(--mb-0);
   padding: 0;
   box-sizing: border-box;
 }
