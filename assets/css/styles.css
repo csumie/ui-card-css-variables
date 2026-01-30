@@ -30,10 +30,11 @@
   --font-extra-light: 100;
 
 /*========== MARGINS ==========*/
+/* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
 
   --mb-0: 0;
-  --mb-0-25: .25rem;
-  --mb-0-5: .5rem;
+  --mb-10: 1rem;
+  --mb-20: 2rem;
   --mb-0-75: .75rem;
   --mb-1: 1rem;
   --mb-1-5: 1.5rem;
@@ -42,6 +43,11 @@
   --mb-3: 3rem;
 
   /*========== PADDING ==========*/
+
+  --pd-0: 0;
+  --pd-10: 1rem;
+  --pd-20: 2rem;
+  --pd-30: 3rem;
 
 }
 
