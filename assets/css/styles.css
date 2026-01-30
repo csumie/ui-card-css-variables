@@ -22,6 +22,7 @@
 
 /*==================== FONT WEIGHT ====================*/
 
+  --font-extra-bold: 700;
   --font-bold: 600;
   --font-semi-bold: 500;
   --font-regular: 400;
@@ -207,7 +208,8 @@ body {
   font-size: 14px;
   line-height: 1.6;
   color: var(--second-color);
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
+  margin-bottom: calc(var(--mb-30) - 5);
 }
 
 .stats {
@@ -223,7 +225,7 @@ body {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   margin-bottom: calc(var(--mb-10) - 5);
 }
 
