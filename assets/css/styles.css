@@ -19,6 +19,7 @@
   --h1-font-size: 3rem;
   --h2-font-size: 2rem;
   --h3-font-size: 1rem;
+  --h4-font-size: 0.75rem;
 
 /*==================== FONT WEIGHT ====================*/
 
@@ -201,14 +202,15 @@ body {
 }
 
 .title {
-  font-size: 16px;
+  font-size: var(--h3-font-size);
   color: var(--second-color);
   margin-bottom: 15px;
   font-weight: 500;
 }
 
 .bio {
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: calc(var(--h4-font-size) + 0.25px);
   line-height: 1.6;
   color: var(--second-color);
   /* margin-bottom: 25px; */
