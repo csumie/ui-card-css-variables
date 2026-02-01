@@ -54,11 +54,11 @@
 
 }
 
-/*==================== LAYOUT ====================*/
+/*==================== BASE ====================*/
 
 * {
   margin: var(--mb-0);
-  padding: 0;
+  padding: var(--pd-0);
   box-sizing: border-box;
 }
 
@@ -69,7 +69,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: var(--pd-20);
+  padding: var(--pd-30);
 }
 
 .container {
@@ -81,7 +81,7 @@ body {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 20px;
-  padding: 30px;
+  padding: var(--pd-20);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   border: 1px solid rgba(255, 255, 255, 0.18);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
