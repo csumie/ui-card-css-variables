@@ -268,7 +268,8 @@ body {
 }
 
 #base {
-  inline-size: 100%!important;
+  inline-size: 95% !important;
+  margin: 0 10px;
 }
 
 .follow-btn {
