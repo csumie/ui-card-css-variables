@@ -193,7 +193,8 @@ body {
 }
 
 .name {
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: calc(var(--h2-font-size) - 0.50px);
   font-weight: 700;
   margin-bottom: 8px;
   color: var(--second-color);
@@ -228,7 +229,7 @@ body {
   font-weight: 700;
   color: #fff;
   /* margin-bottom: 5px; */
-  margin-bottom: calc(var(--mb-10) - 5);
+  margin-bottom: calc(var(--mb-10) - 5px);
 }
 
 .stat-item p {
