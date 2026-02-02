@@ -8,7 +8,7 @@
   --third-color: #FFFFFF;
   --fourth-color: #F1F1F1;
   --fifth-color: #D6D6D6;
-  --sixth-color: #333333;
+  --sixth-color: #757575;
   --seventh-color: #444444;
 
 /*==================== FONT STYLES & SIZES ====================*/
@@ -166,7 +166,7 @@ body {
 .avatar-upload .avatar-edit input + label:after {
   content: "\f040";
   font-family: 'FontAwesome';
-  color: #757575;
+  color: var(--sixth-color);
   position: absolute;
   top: 10px;
   left: 0;
