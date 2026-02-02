@@ -196,7 +196,7 @@ body {
 .name {
   /* font-size: 28px; */
   font-size: calc(var(--h2-font-size) - 0.50px);
-  font-weight: 700;
+  font-weight: var(--font-extra-bold);
   margin-bottom: 8px;
   color: var(--second-color);
 }
