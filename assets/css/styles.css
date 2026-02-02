@@ -279,7 +279,7 @@ body {
   color: var(--third-color);
   border: none;
   border-radius: 12px;
-  font-size: 16px;
+  font-size: var(--h3-font-size);
   font-weight: 700;
   cursor: pointer;
   transition: all 0.3s ease;
