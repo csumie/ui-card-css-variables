@@ -7,7 +7,7 @@
   --second-color: #010101;
   --third-color: #FFFFFF;
   --fourth-color: #F1F1F1;
-  --fifth-color: #EEEEEE;
+  --fifth-color: #D6D6D6;
   --sixth-color: #333333;
   --seventh-color: #444444;
 
@@ -160,7 +160,7 @@ body {
 
 .avatar-upload .avatar-edit input + label:hover {
   background: var(--fourth-color);
-  border-color: #d6d6d6;
+  border-color: var(--fifth-color);
 }
 
 .avatar-upload .avatar-edit input + label:after {
