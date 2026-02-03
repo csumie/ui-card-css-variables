@@ -53,6 +53,12 @@
   --pd-40: 2.5rem;
   --pd-50: 3.125rem;
 
+  /*========== IMAGE ==========*/
+
+  --base: #d000ff;
+  --spacing: 10px;
+  --blur: 10px;
+
 }
 
 /*==================== BASE ====================*/
@@ -103,6 +109,16 @@ body {
   max-width: 960px;
   margin: var(--pd-20);
   /* padding: var(--pd-20); */
+}
+
+img {
+  padding: var(--pd-10);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
 }
 
 .card-title {
