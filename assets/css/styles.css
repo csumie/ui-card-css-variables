@@ -214,7 +214,7 @@ body {
   line-height: 1.6;
   color: var(--second-color);
   /* margin-bottom: 25px; */
-  margin-bottom: var(--mb-10);
+  margin: var(--mb-10);
 }
 
 .stats {
