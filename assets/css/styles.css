@@ -280,7 +280,7 @@ body {
   border: none;
   border-radius: 12px;
   font-size: var(--h3-font-size);
-  font-weight: 700;
+  font-weight: var(--font-extra-bold);
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
