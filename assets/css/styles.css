@@ -145,7 +145,7 @@ body {
 
 .avatar-upload {
   position: relative;
-  max-width: 205px;
+  max-width: 250px;
   margin: 50px auto;
 }
 
@@ -192,8 +192,8 @@ body {
 }
 
 .avatar-upload .avatar-preview {
-  width: 192px;
-  height: 192px;
+  width: 250px;
+  height: 250px;
   position: relative;
   border-radius: 100%;
   border: 6px solid #F8F8F8;
