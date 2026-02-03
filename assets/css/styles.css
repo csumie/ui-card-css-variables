@@ -111,7 +111,7 @@ body {
   /* padding: var(--pd-20); */
 }
 
-.avatar-upload img {
+#imageUpload img {
   padding: var(--pd-10);
   background: var(--base);
   filter: blur(var(--blur));
