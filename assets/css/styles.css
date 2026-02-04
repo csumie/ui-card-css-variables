@@ -233,7 +233,7 @@ body {
   margin: var(--mb-10);
 }
 
-.stats {
+/* .stats {
   display: flex;
   justify-content: space-around;
   margin-bottom: 25px;
@@ -246,7 +246,6 @@ body {
   font-size: 24px;
   font-weight: 700;
   color: var(--third-color);
-  /* margin-bottom: 5px; */
   margin-bottom: calc(var(--mb-10) - 5px);
 }
 
@@ -255,7 +254,7 @@ body {
   color: rgba(255, 255, 255, 0.7);
   text-transform: var(--font-style-one);
   letter-spacing: 1px;
-}
+} */
 
 .controls{
   margin-bottom: 50px;
