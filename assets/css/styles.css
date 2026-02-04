@@ -209,8 +209,7 @@ body {
   background-position: center;
 }
 
-.name {
-  /* font-size: 28px; */
+/* .name {
   font-size: calc(var(--h2-font-size) - 0.50px);
   font-weight: var(--font-extra-bold);
   margin-bottom: 8px;
@@ -222,7 +221,7 @@ body {
   color: var(--second-color);
   margin-bottom: 15px;
   font-weight: var(--font-semi-bold);
-}
+} */
 
 .bio {
   /* font-size: 14px; */
