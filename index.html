@@ -11,51 +11,36 @@
   <div class="container">
   <div class="card">
     <div class="card-header">
-
       <div class="image_container">
           <h1 class="card-title">Modify your image with <span class='hl'>JS Variables</span></h1>
           <div class="avatar-upload">
-              <div class="avatar-edit">
-                  <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
-                  <label for="imageUpload"></label>
-              </div>
-              <div class="avatar-preview">
-                  <div id="imagePreview" style="background-image: url('./imgs/black_cat.jpg');">
-                  </div>
-              </div>
+          <div class="avatar-edit">
+          <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+          <label for="imageUpload"></label>
           </div>
+          <div class="avatar-preview">
+            <div id="imagePreview" style="background-image: url('./imgs/black_cat.jpg');">
+          </div>
+        </div>
       </div>
-
+     </div>
     </div>
 
     <div class="card-body">
-      <!-- <h2 class="name">Aisha Rahman</h2>
-      <h3 class="title">Full Stack Developer</h3> -->
       <p class="bio">Upload a photo and use the elements below to make your avatar small, big, blurry or sharp!</p>
+      <div class="controls">
+        <label for="spacing" class="social-btn">Spacing:</label>
+        <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px" style="margin:2px 10px;">
 
+        <label for="blur" class="social-btn">Blur:</label>
+        <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px" style="margin:2px 10px;">
 
-
-      <!-- <div class="social-links"> -->
-        <div class="controls">
-          <label for="spacing" class="social-btn">Spacing:</label>
-          <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px" style="margin:2px 10px;">
-
-          <label for="blur" class="social-btn">Blur:</label>
-          <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px" style="margin:2px 10px;">
-
-          <label for="base" class="social-btn">Base Color</label>
-          <input id="base" type="color" name="base" value="#a4bdb7" style="margin:2px 10px;">
-        </div>
-      <!-- </div> -->
-
+        <label for="base" class="social-btn">Base Color</label>
+        <input id="base" type="color" name="base" value="#a4bdb7" style="margin:2px 10px;">
+      </div>
     </div>
   </div>
 </div>
-
-
-
-
-<!-- <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500"> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/avatar.js"></script>
