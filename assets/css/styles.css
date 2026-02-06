@@ -249,7 +249,7 @@ body {
 
   .container {
     max-width: 80%!important;
-    padding: 20px;
+    padding: var(--pd-20);
   }
 }
 
