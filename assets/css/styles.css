@@ -107,7 +107,7 @@ body {
 
 .image_container {
   max-width: 960px;
-  margin: var(--pd-20);
+  margin: var(--mb-20);
 }
 
 .avatar-preview {
