@@ -287,25 +287,6 @@ body {
   margin: 0 10px;
 }
 
-/* .follow-btn {
-  width: 100%;
-  padding: 14px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: var(--third-color);
-  border: none;
-  border-radius: 12px;
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-extra-bold);
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
-}
-
-.follow-btn:hover {
-  transform: scale(1.02);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
-} */
-
 @media (max-width: 480px) {
   .card {
     padding: 20px;
