@@ -240,13 +240,21 @@ body {
   margin: 0 10px;
 }
 
+/*==================== RESPONSIVE ====================*/
+
+@media (min-width: 800px) {
+  body {
+    min-height: 60vh!important;
+  }
+
+  .container {
+    max-width: 80%!important;
+    padding: 20px;
+  }
+}
+
 @media (max-width: 480px) {
   .card {
     padding: 20px;
-  }
-
-  .stats {
-    flex-direction: column;
-    gap: 15px;
   }
 }
