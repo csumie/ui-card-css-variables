@@ -232,29 +232,6 @@ body {
   margin: var(--mb-10);
 }
 
-/* .stats {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 25px;
-  padding: 20px 0;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 15px;
-}
-
-.stat-item h3 {
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--third-color);
-  margin-bottom: calc(var(--mb-10) - 5px);
-}
-
-.stat-item p {
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.7);
-  text-transform: var(--font-style-one);
-  letter-spacing: 1px;
-} */
-
 .controls{
   margin-bottom: 50px;
   display: flex;
