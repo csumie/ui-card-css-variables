@@ -210,11 +210,9 @@ body {
 }
 
 .bio {
-  /* font-size: 14px; */
   font-size: calc(var(--h4-font-size) + 1px);
   line-height: 1.6;
   color: var(--second-color);
-  /* margin-bottom: 25px; */
   margin: var(--mb-10);
 }
 
