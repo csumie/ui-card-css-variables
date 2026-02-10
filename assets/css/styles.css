@@ -255,6 +255,12 @@ body {
   }
 }
 
+@media (max-width: 620px) {
+  .card-title {
+    font-size: 2.5rem!important;
+  }
+}
+
 @media (max-width: 480px) {
   .card {
     padding: var(--pd-20);
