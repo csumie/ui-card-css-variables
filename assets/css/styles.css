@@ -246,12 +246,9 @@ body {
   body {
     min-height: 60vh!important;
   }
-  .container {
-    max-width: 420px!important;
-  }
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
   .container {
     padding: var(--pd-20);
     max-width: 80%!important;
