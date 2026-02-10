@@ -246,11 +246,8 @@ body {
   body {
     min-height: 60vh!important;
   }
-}
-
-@media (max-width: 800px) {
   .container {
-    max-width: 80%!important;
+    width: 80%!important;
     padding: var(--pd-20);
   }
 }
