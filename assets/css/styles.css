@@ -55,9 +55,9 @@
 
   /*========== IMAGE ==========*/
 
-  --base: #d000ff;
+  --base: transparent;
   --spacing: 10px;
-  --blur: 10px;
+  --blur: 0px;
 
 }
 
