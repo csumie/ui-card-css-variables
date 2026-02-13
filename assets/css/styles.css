@@ -87,7 +87,7 @@ body {
 .card {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(var(--blur));
-  
+  border-color: var(--base);
   border-radius: 20px;
   padding: var(--pd-30);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
